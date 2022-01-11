@@ -1,0 +1,25 @@
+h1{
+    color: crimson;
+    font-size: 25px !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+canvas{
+    animation-name: example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    position: 230px,16px;
+
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 110px rgb(180, 150, 12);
+    }
+    to{
+        box-shadow:1px 1px 100px cornflowerblue;
+    }
+}
+.Snapy{
+    position: 234px,17px;
+}
